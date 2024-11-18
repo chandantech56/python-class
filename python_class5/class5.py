@@ -11,13 +11,13 @@ txt ="this is a python class"
 for letter in txt:
     print(letter)
 
-    #list data types
+    #list data types []
 
 my_list = [123, "ram" , 32.25]
 print(my_list)
 print(type(my_list))
 
-#nested data types
+#nested data types: [0,2]
 L = ['a', 'b' ,['cc','dd',['eee','fff']],'g','h']
 print(L)
 print(L[2])
