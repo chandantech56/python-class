@@ -17,19 +17,20 @@ my_list = [123, "ram" , 32.25]
 print(my_list)
 print(type(my_list))
 
-#nested data types: [0,2]
+#nested data types: [2]
 L = ['a', 'b' ,['cc','dd',['eee','fff']],'g','h']
 print(L)
 print(L[2])
 print(L[2][0])
 print(L[2][2])
-
+print(L[3])
 #negative index data 
 # Negative indexing means start from the end
 # -1 refers to the last item, -2 refers to the second last item etc.
 thislist = ["apple", "banana", "cherry"]
 print(thislist[-1])
 
+# slicing in list
 #Negative indexing means starting from the end of the list.
 #This example returns the items from index -4 (included) to index -1 (excluded)
 #Remember that the last item has the index -1,
