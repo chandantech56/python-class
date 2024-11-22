@@ -18,13 +18,17 @@ prime_number.sort() #sort method asccending to descending(arrange items)
 print(prime_number)
 
 # a = ['p', 'y', 't', 'h', 'o', 'n']
-# print(list(reversed(a)))# Reverses the list 'a' and prints it as a list
-
+#  = list(reversed(a))  # Reverses the list 'a' and prints it as a list
+# print(a)
 # b = "apple"
-# print(list(reversed(b)))  # Reverses the string 'b' and prints it as a list of characters
 
 
+# b= list(reversed(b))  # Reverses the string 'b' and prints it as a list of characters
+# print(b)
 
+a= [1,2,3,4,5,6,8]
+a.reversed()
+print(a)
 for fruits in ["mango","banana","grapes"]:
     print("i like fruits:", fruits)
 
