@@ -5,7 +5,7 @@
 #A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
 #Dictionaries are written with curly brackets, and have keys and values:
 
-my_dict = {'name':'harry', 'age':30}
+my_dict = {'name':'harry', 'age':30, 'Address':'bangalore'}
 print(my_dict['name']) #1st method
 print(my_dict.get('age')) #2nd method print
 
@@ -34,5 +34,7 @@ a= set()
 print(type(a))
 a = {} #create empty dict.
 print(type(a))
+
+
 
 
