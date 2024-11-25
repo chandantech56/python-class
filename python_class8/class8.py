@@ -25,12 +25,12 @@ my_tupple=("hello")
 print(type(my_tupple))
 my_tupple= ("hello",) #tupple compalsary each value after given comma
 print(type(my_tupple))
-
 my_tupple= ("man",1,2,3,[9,5]) #nested tuple
-my_tupple[3][0]= 4 # only list values change. but not change tupple values.
-print(my_tupple)
+# my_tupple[3][0]= 4 # only list values change. but not change tupple values.
+# print(my_tupple)
 
 atupple= ("tiger",28, "mango")
+print(atupple)
 print(type(atupple))
 
 #converting tupple to list 
@@ -39,10 +39,10 @@ print(aList)
 print(type(aList))
 
 #Deleting a Tuple:
-#  ● Wecannotchangetheelements in a tuple. It means that we cannot delete or remove items from a tuple.
-#  ● Deleting atuple entirely, however, is possible using the keyword del
+#  ● We cannot change the elements in a tuple. It means that we cannot delete or remove items from a tuple.
+#  ● Deleting a tuple entirely, however, is possible using the keyword del
 
 # Changing a Tuple:
-#  ● Unlikelists, tuples are immutable.
-#  ● Thismeansthatelements of a tuple cannot be changed once they have been assigned. But,nested items can be changed.
-#  ● Wecanalsoassignatuple to different values (reassignment).
+#  ● Unlike lists, tuples are immutable.
+#  ● This means that elements of a tuple cannot be changed once they have been assigned. But,nested items can be changed.
+#  ● We can also assign a tuple to different values (reassignment).
