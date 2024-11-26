@@ -12,12 +12,12 @@ print(my_dict.get('age')) #2nd method print
 my_dict["age"] = 26 #add extra values and element.
 print(my_dict)
 
-my_dict.pop('age') #delete last key and values
+my_dict.pop('age') #delete given key and values
 print(my_dict)
 
 print(my_dict.clear()) #clear entire element
 
-#iterating dict. only print values not print variable...
+#iterating dict. only print values not print key...
 squares = {1:1,3:9,5:25,6:36,7:49}
 for i in squares:
     print(squares[i])
