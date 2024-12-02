@@ -20,7 +20,7 @@ print(student)
 student.remove("rahul")
 print(student)
 
-#clear : this methods use clear the entire values.
+#clear : this methods use clear the entire values. print empty set ()
 student.clear()
 print(student)
 #union methods in set
@@ -44,10 +44,11 @@ if score>=20:
     print("you are pass")
 else:
     print("you are faild")
+
 #program for driving pass age
 age = int(input("enter your age: ")) 
 if age>=18:
-    print(f"you are {age} years old,  so you are  eligible for drive")    
+    print(f"your  {age} years old,  so you are  eligible for drive")    
 elif age<18:
     print(f"your age is {age}.so you are not eligible for drive")
 elif age >=60:
