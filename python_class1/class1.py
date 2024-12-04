@@ -1,3 +1,13 @@
+# Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+
+# It is used for:
+
+# web development (server-side),
+# software development,
+# mathematics,
+# system scripting.
+
+
 a = 10 #integer value: number
 print(a)
 b = 22.22 #float value: decimal

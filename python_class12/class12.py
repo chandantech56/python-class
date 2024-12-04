@@ -2,7 +2,8 @@
 add= lambda a,b: a+b
 print(add(50,30))
 
-#Global Variables:  A variable declared outside of the function or in global scope is known as a global variable. This means that a global variable can be accessed inside or outside of the function.
+#Global Variables:  A variable declared outside of the function or in global scope is known as a global variable.
+#  This means that a global variable can be accessed inside or outside of the function.
 message="hello how are you?" #assigning global variable
 def greet():
     print("this is global variable: ", message)
