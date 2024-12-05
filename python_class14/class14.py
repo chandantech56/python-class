@@ -21,7 +21,7 @@ print(car1.brand)
 
 #constructor in python
 class supermarket:
-    def ___init__(self,product_name, product_price, product_color):
+    def __init__(self,product_name, product_price, product_color):
         self.name = product_name
         self.price = product_price
         self.color = product_color
