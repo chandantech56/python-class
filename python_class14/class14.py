@@ -30,6 +30,16 @@ print(s1.name)
 print(s1.price)
 print(s1.color)
 
+#example 2
+class students:
+    def __init__(self,name, age, marks,subject):
+        self.name = name
+        self.age= age
+        self.marks= marks
+        self.subject= subject
+d1= students("Ayush","30","95","computer")
+print(d1.name , d1.age, d1.marks,d1.subject)  
+
 #inheritance
 
 class Animal:
